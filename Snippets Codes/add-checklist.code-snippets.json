@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.10.1.1","date_created":"2018-04-29 05:41","snippets":[{"name":"Add checklist","scope":"global","code":"\r\nadd_filter( 'wpcf7_form_elements', 'delicious_wpcf7_form_elements' );\r\n \r\nfunction delicious_wpcf7_form_elements( $form ) {\r\n$form = do_shortcode( $form );\r\nreturn $form;\r\n}"}]}
